@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="C:/Users/APandey15/JavaAutomation/SeleniumTestNgFramework">
+        <classes>
+            <class name="com.thequalityacademy.tests.VWO.TestVMOInvalidLogin_without_POM">
+                <methods>
+                    <include name="VMOTestWithoutPOM"/>
+                </methods>
+            </class>
+            <class name="com.thequalityacademy.tests.VWO.TestVMOLogin_01_Normal_POM">
+                <methods>
+                    <include name="test_negative_vmo_login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
