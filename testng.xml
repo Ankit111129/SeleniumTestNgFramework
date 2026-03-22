@@ -4,14 +4,15 @@
 
     <test verbose="2" preserve-order="true" name="C:/Users/APandey15/JavaAutomation/SeleniumTestNgFramework">
         <classes>
-            <class name="com.thequalityacademy.tests.VWO.TestVMOInvalidLogin_without_POM">
+          <!--  <class name="com.thequalityacademy.tests.VWO.TestVMOInvalidLogin_without_POM">
                 <methods>
                     <include name="VMOTestWithoutPOM"/>
                 </methods>
-            </class>
+            </class>-->
             <class name="com.thequalityacademy.tests.VWO.TestVMOLogin_01_Normal_POM">
                 <methods>
                     <include name="test_negative_vmo_login"/>
+                    <include name="test_positive_vmo_login"/>
                 </methods>
             </class>
         </classes>

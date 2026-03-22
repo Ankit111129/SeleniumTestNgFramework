@@ -1,4 +1,4 @@
-package ex08_SeleniumWaitswaitHelperPackage;
+package com.thequalityacademy.utils;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
