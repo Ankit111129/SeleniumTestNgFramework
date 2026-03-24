@@ -1,18 +1,17 @@
-package com.thequalityacademy.page.POM.VMO;
+package com.thequalityacademy.page.POM.normal_POM.VMO;
 
 import com.thequalityacademy.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 //page class
 
 public class LoginPage {
 
-    WebDriver driver ;
-    public LoginPage(WebDriver driver)
-    {
-    this.driver = driver;
+    WebDriver driver;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
     }
     //page locator
 
@@ -23,8 +22,7 @@ public class LoginPage {
 
     //page action
 
-    public String LoginToVMOInvalidCreds(String usr, String pwd)
-    {
+    public String LoginToVMOInvalidCreds(String usr, String pwd) {
 
         driver.findElement(userName).sendKeys(usr);
         driver.findElement(passWord).sendKeys(pwd);
@@ -34,8 +32,7 @@ public class LoginPage {
         return error_Msg_Text;
     }
 
-    public void LoginToVMOvalidCreds(String usr, String pwd)
-    {
+    public void LoginToVMOvalidCreds(String usr, String pwd) {
 
         driver.findElement(userName).sendKeys(usr);
         driver.findElement(passWord).sendKeys(pwd);

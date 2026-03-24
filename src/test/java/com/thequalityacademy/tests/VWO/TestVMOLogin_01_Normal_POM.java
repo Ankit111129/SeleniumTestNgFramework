@@ -1,7 +1,7 @@
 package com.thequalityacademy.tests.VWO;
 
-import com.thequalityacademy.page.POM.VMO.DashboardPage;
-import com.thequalityacademy.page.POM.VMO.LoginPage;
+import com.thequalityacademy.page.POM.normal_POM.VMO.DashboardPage;
+import com.thequalityacademy.page.POM.normal_POM.VMO.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;

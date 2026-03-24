@@ -29,7 +29,7 @@ public  static String readKey(String key)
     } catch (IOException e) {
         throw new RuntimeException(e);
     }
-
+    return p.getProperty(key);
 
 }
 

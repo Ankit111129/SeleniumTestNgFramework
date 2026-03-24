@@ -1,4 +1,4 @@
-package com.thequalityacademy.page.POM.VMO;
+package com.thequalityacademy.page.POM.normal_POM.VMO;
 
 import com.thequalityacademy.utils.WaitHelpers;
 import org.openqa.selenium.By;
